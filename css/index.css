@@ -1,0 +1,327 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.current {
+    background-color: #fff;
+}
+
+.focus {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+
+/* 把ul的宽度设置大一点好存放轮播图图片 */
+.focus ul {
+    width: 600%;
+    position: absolute;
+}
+
+.focus ul li {
+    float: left;
+}
+
+/* 左箭头 */
+.arrow_r {
+    display: none;
+    position: absolute;
+    top: 225px;
+    left: 10px;
+    font-size: 24px;
+    font-family: iconfont;
+    color: #fff;
+    z-index: 9999;
+}
+
+/* 右箭头 */
+.arrow_l {
+    display: none;
+    position: absolute;
+    top: 225px;
+    right: 10px;
+    font-size: 24px;
+    font-family: iconfont;
+    color: #fff;
+    z-index: 9999;
+}
+
+.circle {
+    position: absolute;
+    top: 420px;
+    left: 345px;
+    width: 200px;
+}
+
+.circle li {
+    float: left;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-right: 10px;
+}
+
+.newflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    height: 165px;
+    border: 1px solid #ccc;
+}
+
+.news dl dt {
+    height: 30px;
+    line-height: 30px;
+}
+
+.news .news_hd {
+    position: relative;
+    height: 33px;
+    border-bottom: 1px dotted #ccc;
+    padding-left: 15px;
+}
+
+.news .news_hd h5 {
+    float: left;
+    font-weight: normal;
+    line-height: 33px;
+    font-size: 14px;
+    color: #333;
+}
+
+.news .news_hd a {
+    float: right;
+    line-height: 33px;
+    font-size: 12px;
+    color: #666;
+    margin-right: 30px;
+}
+
+.news .news_hd::after {
+    position: absolute;
+    top: 11px;
+    right: 12px;
+    content: '\e775';
+    font-family: iconfont;
+    color: #666;
+
+}
+
+.news .news_bd {
+    padding: 5px 15px 0;
+}
+
+.news .news_bd ul li {
+    height: 24px;
+    line-height: 24px;
+    color: #333;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.life_server {
+    overflow: hidden;
+    height: 209px;
+    border: 1px solid #ccc;
+    border-top: 0;
+}
+
+.life_server ul {
+    width: 252px;
+}
+
+.life_server ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.life_server ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    background: url(../images/icons.png) no-repeat -15px -14px;
+    margin-top: 12px;
+}
+
+.bargain {
+    padding-top: 5px;
+}
+
+.recom {
+    height: 164px;
+    margin-top: 10px;
+}
+
+.recom_hd {
+    float: left;
+    width: 206px;
+    height: 164px;
+    text-align: center;
+    background-color: #5c5251;
+    padding-top: 30px;
+}
+
+.recom_hd p {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 8px;
+}
+
+.recom_bd {
+    float: left;
+    width: 994px;
+    height: 164px;
+    background-color: #ebebeb;
+}
+
+.recom_bd ul li {
+    position: relative;
+    float: left;
+    width: 248px;
+    height: 164px;
+}
+
+.recom_bd ul li img {
+    width: 248px;
+    height: 164px;
+}
+
+.goods {
+    height: 233px;
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.goods ul li {
+    float: left;
+    width: 200px;
+    height: 233px;
+    text-align: center;
+}
+
+.goods .biaoq {
+    width: 201px;
+    height: 58px;
+    border-right: 1ppx solid red;
+}
+
+.biaoq p {
+    font-size: 12px;
+    color: #666;
+    margin-top: 14px;
+}
+
+.goods .biaoq span {
+    font-size: 18px;
+    color: #df3033;
+    margin-right: 0;
+}
+
+.catalogue {
+    font-size: 18px;
+    color: #333;
+    padding-top: 30px;
+}
+
+.floor .w {
+    margin-top: 30px;
+}
+
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: normal;
+    color: #c81623;
+}
+
+.tab-list {
+    float: right;
+}
+
+.tab-list ul li {
+    float: left;
+    line-height: 30px;
+}
+
+.tab-list ul li a {
+    margin: 0 15px;
+}
+
+.tab-list ul li a:hover {
+    color: #c81623;
+}
+
+.box_bd {
+    height: 361px;
+}
+
+.tab-list-items>div {
+    float: left;
+}
+
+.col_210 {
+    width: 210px;
+    height: 361px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.col_210 ul li {
+    float: left;
+    width: 84px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    font-size: 12px;
+    color: #666;
+    border-bottom: 1px solid #ccc;
+    margin-left: 12px;
+}
+
+.col_210 img {
+    padding-top: 30px;
+}
+
+.col_329 {
+    width: 329px;
+    height: 361px;
+}
+
+.col_221 {
+    width: 221px;
+    height: 361px;
+    border-right: 1px solid #ccc;
+}
+
+.col_219 {
+    width: 219px;
+    height: 361px;
+}
+
+/* .goods ul li {
+    height: 164px;
+} */
+.downlist ul li {
+    padding: 10px 15px;
+}

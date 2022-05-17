@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* css3盒子模型 */
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    /* 如果图片外面包含了链接会有边框问题，照顾低版本浏览器 */
+    border: 0;
+    /*消除照片底部的空白缝隙 */
+    vertical-align: middle;
+}
+
+button {
+    /* 鼠标经过变成小手 */
+    cursor: pointer;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+button,
+input {
+    border: 0;
+    /* 去掉蓝色边框 */
+    outline: none;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+}

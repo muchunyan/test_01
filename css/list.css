@@ -1,0 +1,152 @@
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 190px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+    text-align: center;
+}
+
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 27px;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    line-height: 50px;
+    font-size: 14px;
+    color: #666;
+    margin: 0 23px;
+}
+
+.sk_con ul li:last-child a::after {
+    content: '\e616';
+    font-family: iconfont;
+}
+
+.sk_bd {
+
+    margin-top: 24px;
+}
+
+
+.sk_bd ul li {
+    float: left;
+    width: 290px;
+    height: 470px;
+    margin-right: 13px;
+    border: 1px solid #ccc;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #e60012;
+}
+
+.sk_bd ul li a {
+    display: block;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_items {
+    overflow: hidden;
+    margin: 0 12px;
+}
+
+.sk_items h3 {
+    line-height: 22px;
+    font-size: 14px;
+    color: #666;
+}
+
+.price {
+    margin: 15px 0 13px 0;
+    font-size: 22px;
+    color: #e60012;
+}
+
+.price span {
+    font-size: 14px;
+    color: #a4a4a4;
+    text-decoration: line-through;
+    margin-left: 8px;
+}
+
+.btn {
+    width: 288px;
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #b1191a;
+}
+
+.buy {
+    width: 290px;
+    height: 15px;
+    margin-bottom: 13px;
+}
+
+.buy p {
+    float: left;
+    font-size: 14px;
+    color: #666;
+}
+
+.buy .jindu {
+    display: inline;
+    margin: 5px 10px 0;
+}
+
+.buy .red {
+    float: left;
+    width: 118px;
+    height: 11px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #e60012;
+}
+
+.buy .white {
+    float: left;
+    width: 16px;
+    height: 11px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #e60012;
+    background-color: #fff;
+}
+
+.buy span {
+    float: left;
+    font-size: 14px;
+    color: #666;
+}
